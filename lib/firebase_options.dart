@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDQ99O1ij2Y4vXOurEfFSv97KuZt1QBm0c',
-    appId: '1:530687307816:web:340c07920d80c4487f051d',
-    messagingSenderId: '530687307816',
-    projectId: 'login-bloc-4df39',
-    authDomain: 'login-bloc-4df39.firebaseapp.com',
-    storageBucket: 'login-bloc-4df39.firebasestorage.app',
-    measurementId: 'G-B1FF7T7YN4',
+    apiKey: 'web-api-key',
+    appId: 'web-app-id',
+    messagingSenderId: 'web-sender-id',
+    projectId: 'web-project-id',
+    authDomain: 'web-auth-domain',
+    storageBucket: 'web-storage-bucket',
+    measurementId: 'web-measurement-id',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBPU2NXz0eDfQbopygcYrkm0Bs_Cvc2PqI',
-    appId: '1:530687307816:android:c61c085ffd110ee57f051d',
-    messagingSenderId: '530687307816',
-    projectId: 'login-bloc-4df39',
-    storageBucket: 'login-bloc-4df39.firebasestorage.app',
+    apiKey: 'android-api-key',
+    appId: 'android-app-id',
+    messagingSenderId: 'android-sender-id',
+    projectId: 'android-project-id',
+    storageBucket: 'android-storage-bucket',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDhR5Sdy8o8mKCxa0pdaEM9a4MMv62N3wM',
-    appId: '1:530687307816:ios:04043fdde10ee20d7f051d',
-    messagingSenderId: '530687307816',
-    projectId: 'login-bloc-4df39',
-    storageBucket: 'login-bloc-4df39.firebasestorage.app',
-    iosBundleId: 'com.example.loginBloc',
+    apiKey: 'ios-api-key',
+    appId: 'ios-app-id',
+    messagingSenderId: 'ios-sender-id',
+    projectId: 'ios-project-id',
+    storageBucket: 'ios-storage-bucket',
+    iosBundleId: 'ios-bundle-id',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDhR5Sdy8o8mKCxa0pdaEM9a4MMv62N3wM',
-    appId: '1:530687307816:ios:04043fdde10ee20d7f051d',
-    messagingSenderId: '530687307816',
-    projectId: 'login-bloc-4df39',
-    storageBucket: 'login-bloc-4df39.firebasestorage.app',
-    iosBundleId: 'com.example.loginBloc',
+    apiKey: 'macOS-api-key',
+    appId: 'macOS-app-id',
+    messagingSenderId: 'macOS-sender-id',
+    projectId: 'macOS-project-id',
+    storageBucket: 'macOS-storage-bucket',
+    iosBundleId: 'macOS-bundle-id',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDQ99O1ij2Y4vXOurEfFSv97KuZt1QBm0c',
-    appId: '1:530687307816:web:c8d3b9c067949c977f051d',
-    messagingSenderId: '530687307816',
-    projectId: 'login-bloc-4df39',
-    authDomain: 'login-bloc-4df39.firebaseapp.com',
-    storageBucket: 'login-bloc-4df39.firebasestorage.app',
-    measurementId: 'G-T0Z81NPKW1',
+    apiKey: 'windows-api-key',
+    appId: 'windows-app-id',
+    messagingSenderId: 'windows-sender-id',
+    projectId: 'windows-project-id',
+    authDomain: 'windows-auth-domain',
+    storageBucket: 'windows-storage-bucket',
+    measurementId: 'windows-measurement-id',
   );
 }
