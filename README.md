@@ -1,16 +1,50 @@
-# login_bloc
+# Password Vault App
 
-A new Flutter project.
+A simple and secure **Password Vault** built with **Flutter** and **BLoC** to manage your sensitive credentials.
 
-## Getting Started
+## Features
+- 🔒 Add and store **encrypted** platform credentials (Platform, Email, Password, Additional Details)
+- 🔎 View **only platform name and email** on the home screen
+- 📋 Tap a vault item to **view full details** inside a dialog
+- 🧩 **Decrypt/Hide** data inside the dialog
+- 🗑️ **Delete** vault items easily
+- 🔑 **AES Encryption** with a fixed key and IV
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (UI Framework)
+- flutter_bloc (State Management)
+- encrypt (AES Encryption/Decryption)
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
+```plaintext
+lib/
+ ├── bloc/
+ ├── models/
+ ├── screens/
+ ├── util/
+ └── main.dart
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How It Works
+- Vault items are stored with encrypted fields using AES encryption.
+- Home screen displays platform name and email only.
+- Clicking a vault item opens a dialog showing all encrypted fields.
+- User can **decrypt/hide** or **delete** the item from the dialog.
+
+## How to Run
+```bash
+git clone https://github.com/your-username/password-vault-app.git
+cd password-vault-app
+flutter pub get
+flutter run
+
+```
+## Encryption Details
+- **Algorithm:** AES CBC with PKCS7 padding
+- **Key:** Fixed 32-character key
+- **IV:** Fixed 16-character IV
+- Managed inside util/encryption_helper.dart
+
+## Author
+Developed by Musana Ali Khan
